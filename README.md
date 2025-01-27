@@ -27,7 +27,7 @@ A command-line tool for publishing and subscribing to Zenoh topics with protobuf
    ```
 3. Clone and build the project:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/varunkamath/zspy.git
    cd zspy
    cargo build --release
    ```
