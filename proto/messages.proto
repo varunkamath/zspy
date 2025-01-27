@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package zspy;
+
+// Sample message types
+message Vector3 {
+    double x = 1;
+    double y = 2;
+    double z = 3;
+}
+
+message ImuMessage {
+    Vector3 angular_velocity = 1;
+    Vector3 linear_acceleration = 2;
+    uint64 timestamp = 3;
+} 
