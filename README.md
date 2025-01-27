@@ -126,4 +126,4 @@ The message registry system automatically handles:
 
 ## License
 
-[Insert your license information here] 
+WTFPL License - Do whatever you want with it.
